@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",           // Extiende la configuración base de tsconfig.
+    "compilerOptions": {
+      "outDir": "./dist-tests",             // Directorio de salida para los archivos compilados de las pruebas.
+      "module": "commonjs",                 // Necesario para Jest, que utiliza CommonJS.
+      "noEmit": false                       // Permite la generación de archivos de salida.
+    },
+    "include": [ 
+      "src/**/*.test.tsx",
+    ]
+  }
