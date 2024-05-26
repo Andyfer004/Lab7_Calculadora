@@ -9,4 +9,4 @@ type makeCalculationType = {
   operation: string;
 };
 
-export { removeAllType, makeCalculationType };
+export type { removeAllType, makeCalculationType };
